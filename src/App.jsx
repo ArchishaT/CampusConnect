@@ -1898,7 +1898,7 @@ function TeacherViews(props) {
 function TeaDashboard({ assignments, setView }) {
   return (
     <div>
-      <PageHeader eyebrow="Teacher · Fully developed 100%" title="Good morning, Mr. Adebayo 👋" subtitle="Physics Department · 3 classes today" />
+      <PageHeader eyebrow="Teacher · Fully developed 100%" title="Good morning, Dr. X 👋" subtitle="Physics Department · 3 classes today" />
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
         <StatCard icon={Layers} label="Classes today" value="3" tone="blue" />
         <StatCard icon={ClipboardList} label="Assignments open" value={assignments.filter(a=>a.subject==="Physics").length} tone="amber" />
@@ -1962,7 +1962,7 @@ function TeaAssignments({ assignments, setAssignments, showToast }) {
 
   const publish = () => {
     if (!form.title.trim()) return;
-    const newA = { id: "a" + Date.now(), title: form.title, subject: form.subject, teacher: "Mr. Adebayo", assigned: "Today", due: form.due || "In 1 week", priority: form.priority, est: form.est, status: "Not started" };
+    const newA = { id: "a" + Date.now(), title: form.title, subject: form.subject, teacher: "Dr. X", assigned: "Today", due: form.due || "In 1 week", priority: form.priority, est: form.est, status: "Not started" };
     setAssignments((prev) => [newA, ...prev]);
     setJustPublished(form.cls);
     setModalOpen(false);
