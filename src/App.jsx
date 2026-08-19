@@ -1808,9 +1808,9 @@ function StuPassport() {
 /* ---- MESSAGES (skeleton) ---- */
 function StuMessages() {
   const threads = [
-    { id: 1, name: "Mrs. Okafor", last: "Please bring your lab report tomorrow.", time: "2h", unread: true },
-    { id: 2, name: "Robotics Club", last: "Meeting moved to Thursday 4 PM.", time: "1d", unread: false },
-    { id: 3, name: "Mr. Adebayo", last: "Great work on the problem set!", time: "2d", unread: false },
+    { id: 1, name: "Mrs. XX", last: "Please bring your lab report tomorrow.", time: "2h", unread: true },
+    { id: 2, name: "X Committee", last: "Meeting moved to Thursday 4 PM.", time: "1d", unread: false },
+    { id: 3, name: "Mr. Y", last: "Great work on the problem set!", time: "2d", unread: false },
   ];
   const [active, setActive] = useState(threads[0]);
   return (
