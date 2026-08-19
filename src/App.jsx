@@ -56,18 +56,18 @@ const fontStack = `
 const STUDENT = { name: "Archisha Tripathy", grade: "11", cls: "11-A", school: "Indian Language School", avatar: "PA" };
 
 const SUBJECTS = [
-  { id: "phy", name: "Physics", teacher: "Dr. Mohan, Mr. Sunday", progress: 78, color: T.blue, assignments: 2, materials: 14 },
-  { id: "chem", name: "Chemistry", teacher: "Mrs. Lakhanpal, Dr. Soni", progress: 64, color: T.emerald, assignments: 1, materials: 11 },
-  { id: "math", name: "Mathematics", teacher: "Mr. Sunday, Mrs. Vaid, Mrs. Dhawan ", progress: 82, color: T.amber, assignments: 1, materials: 20 },
-  { id: "info", name: "Informatics", teacher: "Mrs. Sharmila", progress: 91, color: "#8B5CF6", assignments: 0, materials: 9 },
+  { id: "phy", name: "Physics", teacher: "MRS SMITH", progress: 78, color: T.blue, assignments: 2, materials: 14 },
+  { id: "chem", name: "Chemistry", teacher: "MR JONES", progress: 64, color: T.emerald, assignments: 1, materials: 11 },
+  { id: "math", name: "Mathematics", teacher: "MRS JANE", progress: 82, color: T.amber, assignments: 1, materials: 20 },
+  { id: "info", name: "Informatics", teacher: "MR JACK", progress: 91, color: "#8B5CF6", assignments: 0, materials: 9 },
 ];
 
 const initialAssignments = [
-  { id: "a1", title: "Projectile Motion Problem Set", subject: "Physics", teacher: "Mr. Adebayo", assigned: "Aug 15", due: "Today, 11:59 PM", priority: "High", est: "45 min", status: "In progress" },
-  { id: "a2", title: "Titration Lab Report", subject: "Chemistry", teacher: "Mrs. Okafor", assigned: "Aug 14", due: "Tomorrow, 3:00 PM", priority: "High", est: "1h 15m", status: "Not started" },
-  { id: "a3", title: "Quadratic Functions Worksheet", subject: "Mathematics", teacher: "Mr. Balogun", assigned: "Aug 13", due: "Aug 22, 9:00 AM", priority: "Medium", est: "30 min", status: "Not started" },
-  { id: "a4", title: "Python Loops Mini-Project", subject: "Informatics", teacher: "Ms. Chinwe", assigned: "Aug 10", due: "Aug 19, 5:00 PM", priority: "Low", est: "50 min", status: "Submitted" },
-  { id: "a5", title: "Thermodynamics Reading Response", subject: "Physics", teacher: "Mr. Adebayo", assigned: "Aug 8", due: "Aug 12", priority: "Medium", est: "20 min", status: "Completed" },
+  { id: "a1", title: "Projectile Motion Problem Set", subject: "Physics", teacher: "MRS SMITH", assigned: "Aug 15", due: "Today, 11:59 PM", priority: "High", est: "45 min", status: "In progress" },
+  { id: "a2", title: "Titration Lab Report", subject: "Chemistry", teacher: "MR JONES", assigned: "Aug 14", due: "Tomorrow, 3:00 PM", priority: "High", est: "1h 15m", status: "Not started" },
+  { id: "a3", title: "Quadratic Functions Worksheet", subject: "Mathematics", teacher: "MRS JANE", assigned: "Aug 13", due: "Aug 22, 9:00 AM", priority: "Medium", est: "30 min", status: "Not started" },
+  { id: "a4", title: "Python Loops Mini-Project", subject: "Informatics", teacher: "MR JACK", assigned: "Aug 10", due: "Aug 19, 5:00 PM", priority: "Low", est: "50 min", status: "Submitted" },
+  { id: "a5", title: "Thermodynamics Reading Response", subject: "Physics", teacher: "MRS SMITH", assigned: "Aug 8", due: "Aug 12", priority: "Medium", est: "20 min", status: "Completed" },
 ];
 
 const initialTasks = [
@@ -2233,10 +2233,10 @@ function AdmStudents() {
 
 function AdmTeachers() {
   const teachers = [
-    { name: "Mr. Adebayo", dept: "Physics", classes: 3, rating: 4.8 },
-    { name: "Mrs. Okafor", dept: "Chemistry", classes: 4, rating: 4.6 },
-    { name: "Mr. Balogun", dept: "Mathematics", classes: 5, rating: 4.9 },
-    { name: "Ms. Chinwe", dept: "Informatics", classes: 2, rating: 4.7 },
+    { name: "Mr. Smith", dept: "Physics", classes: 3, rating: 4.8 },
+    { name: "Mrs. Jane doe", dept: "Chemistry", classes: 4, rating: 4.6 },
+    { name: "Mr. Jack", dept: "Mathematics", classes: 5, rating: 4.9 },
+    { name: "Ms. Smith", dept: "Informatics", classes: 2, rating: 4.7 },
   ];
   return (
     <div>
