@@ -53,13 +53,13 @@ const fontStack = `
 /* ============================================================================
    MOCK DATA
 ============================================================================ */
-const STUDENT = { name: "Phoenix Adeyemi", grade: "11", cls: "11-B", school: "Indian Language School", avatar: "PA" };
+const STUDENT = { name: "Archisha Tripathy", grade: "11", cls: "11-A", school: "Indian Language School", avatar: "PA" };
 
 const SUBJECTS = [
-  { id: "phy", name: "Physics", teacher: "Mr. Adebayo", progress: 78, color: T.blue, assignments: 2, materials: 14 },
-  { id: "chem", name: "Chemistry", teacher: "Mrs. Okafor", progress: 64, color: T.emerald, assignments: 1, materials: 11 },
-  { id: "math", name: "Mathematics", teacher: "Mr. Balogun", progress: 82, color: T.amber, assignments: 1, materials: 20 },
-  { id: "info", name: "Informatics", teacher: "Ms. Chinwe", progress: 91, color: "#8B5CF6", assignments: 0, materials: 9 },
+  { id: "phy", name: "Physics", teacher: "Dr. Mohan, Mr. Sunday", progress: 78, color: T.blue, assignments: 2, materials: 14 },
+  { id: "chem", name: "Chemistry", teacher: "Mrs. Lakhanpal, Dr. Soni", progress: 64, color: T.emerald, assignments: 1, materials: 11 },
+  { id: "math", name: "Mathematics", teacher: "Mr. Sunday, Mrs. Vaid, Mrs. Dhawan ", progress: 82, color: T.amber, assignments: 1, materials: 20 },
+  { id: "info", name: "Informatics", teacher: "Mrs. Sharmila", progress: 91, color: "#8B5CF6", assignments: 0, materials: 9 },
 ];
 
 const initialAssignments = [
@@ -94,13 +94,12 @@ const OPPORTUNITIES = [
 ];
 
 const CANTEEN_MENU = [
-  { id: "c1", name: "Jollof Rice & Chicken", price: 2000, tag: "Popular", desc: "Smoky party jollof, grilled chicken, plantain." },
-  { id: "c2", name: "Chicken Sandwich", price: 1500, tag: "Quick", desc: "Grilled chicken, lettuce, mayo, wheat bread." },
-  { id: "c3", name: "Fruit Cup", price: 800, tag: "Light", desc: "Watermelon, pineapple, pawpaw, grapes." },
-  { id: "c4", name: "Meat Pie", price: 700, tag: "Snack", desc: "Baked pastry, minced beef & potato filling." },
-  { id: "c5", name: "Zobo Drink", price: 500, tag: "Drink", desc: "Chilled hibiscus drink, ginger & pineapple." },
-];
-
+  { id: "c1", name: "Vada Pav", price: 2000, tag: "Popular", desc: "Spicy classic snack from the state of Maharashtra." },
+  { id: "c2", name: "Manchurian", price: 1500, tag: "Quick", desc: "Spicy sauce-coated vegetable or meatballs." },
+  { id: "c3", name: "Juice", price: 800, tag: "Light", desc: "Watermelon, pineapple, grapes." },
+  { id: "c4", name: "Indomie", price: 700, tag: "Snack", desc: "Instant noodles with spicy sauce." }
+ 
+]
 const BOOKS = [
   { id: "b1", title: "Physics — Concepts & Applications", author: "N. Okoro", subject: "Physics", copies: 4, due: null },
   { id: "b2", title: "Organic Chemistry Foundations", author: "A. Bello", subject: "Chemistry", copies: 0, due: "Aug 27" },
@@ -157,16 +156,16 @@ const TIMELINE = [
 
 const CLASSES = [
   { id: "cl1", name: "Grade 11 Physics", students: 34, avgProgress: 78, nextClass: "Today, 10:00 AM" },
-  { id: "cl2", name: "Grade 11 Physics — Advanced", students: 18, avgProgress: 85, nextClass: "Tomorrow, 9:00 AM" },
-  { id: "cl3", name: "Grade 10 Physics", students: 41, avgProgress: 71, nextClass: "Today, 1:30 PM" },
+  { id: "cl2", name: "Grade 11 Maths", students: 18, avgProgress: 85, nextClass: "Tomorrow, 9:00 AM" },
+  { id: "cl3", name: "Grade 10 Chemistry", students: 41, avgProgress: 71, nextClass: "Today, 1:30 PM" },
 ];
 
 const TEACHER_STUDENTS = [
-  { id: "s1", name: "Phoenix Adeyemi", cls: "11-B", avg: 84, submitted: 11, missed: 1 },
-  { id: "s2", name: "Amara Chukwu", cls: "11-B", avg: 91, submitted: 12, missed: 0 },
-  { id: "s3", name: "Tunde Bakare", cls: "11-B", avg: 67, submitted: 8, missed: 4 },
-  { id: "s4", name: "Ifeoma Nwosu", cls: "11-A", avg: 78, submitted: 10, missed: 2 },
-  { id: "s5", name: "Segun Alade", cls: "11-A", avg: 73, submitted: 9, missed: 3 },
+  { id: "s1", name: "Archisha Tripathy", cls: "11-B", avg: 84, submitted: 11, missed: 1 },
+  { id: "s2", name: "XYZ", cls: "11-B", avg: 91, submitted: 12, missed: 0 },
+  { id: "s3", name: "ABC", cls: "11-B", avg: 67, submitted: 8, missed: 4 },
+  { id: "s4", name: "PQR", cls: "11-A", avg: 78, submitted: 10, missed: 2 },
+  { id: "s5", name: "OPQ", cls: "11-A", avg: 73, submitted: 9, missed: 3 },
 ];
 
 const ADMIN_STUDENTS_STAT = { total: 1248, active: 1036 };
@@ -189,9 +188,9 @@ const ANALYTICS_WEEK = [
 ];
 
 const CANTEEN_FORECAST = [
-  { item: "Jollof Rice", orders: 72 },
-  { item: "Sandwiches", orders: 43 },
-  { item: "Fruit Cups", orders: 32 },
+  { item: "Vada Pav", orders: 72 },
+  { item: "Samosa", orders: 43 },
+  { item: "Manchurian", orders: 32 },
 ];
 
 /* ============================================================================
