@@ -18,9 +18,9 @@ import {
    Background: #F5F7FA · Card: #FFFFFF · Text: #12172B / #5B6478
 ============================================================================ */
 const T = {
-  navy: "#0B1B3A",
-  navySoft: "#132A52",
-  blue: "#2F6FED",
+  navy: "#000f2c",
+  navySoft: "#03132e",
+  blue: "#011f5a",
   blueSoft: "#EAF1FE",
   emerald: "#10B981",
   emeraldSoft: "#E6F8F1",
